@@ -101,14 +101,130 @@
          "id":4,
          "name":"cave",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"name",
+                 "type":"string",
+                 "value":""
+                }],
+         "type":"tilelayer",
+         "visible":true,
+         "width":30,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":5,
+         "name":"names",
+         "objects":[
+                {
+                 "height":49,
+                 "id":1,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"name",
+                         "type":"string",
+                         "value":"Silver Mines"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":46.6666666666666,
+                 "x":536.666666666667,
+                 "y":185
+                }, 
+                {
+                 "height":49,
+                 "id":3,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"name",
+                         "type":"string",
+                         "value":"Trader"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":46.6666666666666,
+                 "x":825,
+                 "y":249.666666666667
+                }, 
+                {
+                 "height":41,
+                 "id":4,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"name",
+                         "type":"string",
+                         "value":"Buzzing Cavern"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":40.6666666666667,
+                 "x":539.333333333333,
+                 "y":348.666666666667
+                }, 
+                {
+                 "height":45.6666666666666,
+                 "id":5,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"name",
+                         "type":"string",
+                         "value":"Old Knight's respite"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":51.6666666666667,
+                 "x":246.666666666667,
+                 "y":251
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[322, 323, 324, 325, 326, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 322, 323, 324, 325, 326, 0, 0,
+            338, 339, 340, 341, 342, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 338, 339, 340, 341, 342, 0, 0,
+            354, 355, 356, 357, 358, 0, 0, 0, 0, 0, 0, 0, 421, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 354, 355, 356, 357, 358, 0, 0,
+            370, 371, 372, 373, 374, 0, 0, 0, 0, 0, 0, 421, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 370, 371, 372, 373, 374, 0, 0,
+            386, 387, 388, 389, 390, 0, 0, 0, 0, 0, 0, 0, 327, 328, 329, 0, 0, 0, 0, 0, 0, 0, 0, 386, 419, 388, 389, 390, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 343, 344, 345, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 419, 0, 0, 0, 0,
+            0, 0, 421, 0, 0, 0, 0, 0, 0, 0, 0, 0, 359, 360, 361, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 375, 376, 377, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 421, 392, 393, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 421, 0, 0, 0, 327, 328, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 343, 344, 345, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 347, 348, 349, 0, 0,
+            0, 0, 0, 0, 0, 359, 360, 361, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 363, 364, 365, 0, 0,
+            0, 0, 0, 0, 0, 375, 376, 377, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 379, 380, 381, 0, 0,
+            0, 0, 0, 0, 0, 0, 392, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 421, 421, 0, 0, 0, 0, 0, 0, 395, 396, 397, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "height":20,
+         "id":7,
+         "name":"trees",
+         "opacity":1,
          "type":"tilelayer",
          "visible":true,
          "width":30,
          "x":0,
          "y":0
         }],
- "nextlayerid":5,
- "nextobjectid":1,
+ "nextlayerid":8,
+ "nextobjectid":8,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.10.1",
@@ -117,7 +233,7 @@
         {
          "columns":8,
          "firstgid":1,
-         "image":"..\/..\/..\/..\/pixel-art\/tutorials\/sprites\/terrain\/grass.png",
+         "image":"..\/textures\/ground\/grass.png",
          "imageheight":256,
          "imagewidth":256,
          "margin":0,
@@ -130,7 +246,7 @@
         {
          "columns":16,
          "firstgid":65,
-         "image":"..\/..\/..\/..\/pixel-art\/tutorials\/sprites\/terrain\/walls.png",
+         "image":"..\/textures\/ground\/walls.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -737,7 +853,7 @@
         {
          "columns":1,
          "firstgid":321,
-         "image":"..\/..\/..\/..\/pixel-art\/tutorials\/sprites\/cave.png",
+         "image":"..\/..\/..\/..\/..\/..\/Documents\/pixel-art\/tutorials\/sprites\/cave.png",
          "imageheight":32,
          "imagewidth":32,
          "margin":0,
@@ -754,6 +870,101 @@
          "tiles":[
                 {
                  "id":0,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }],
+         "tilewidth":32
+        }, 
+        {
+         "columns":16,
+         "firstgid":322,
+         "image":"..\/..\/..\/..\/..\/..\/Documents\/pixel-art\/tutorials\/sprites\/terrain\/tree.png",
+         "imageheight":512,
+         "imagewidth":512,
+         "margin":0,
+         "name":"tree",
+         "spacing":0,
+         "tilecount":256,
+         "tileheight":32,
+         "tiles":[
+                {
+                 "id":66,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":70,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":74,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":97,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":99,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":101,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":103,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":105,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":107,
                  "properties":[
                         {
                          "name":"collides",
